@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<portlet-app xmlns='http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd' version='2.0'>
+	<portlet>
+		<description>AllJobsMap</description>
+		<portlet-name>AllJobsMap</portlet-name>
+		<display-name>AllJobsMap</display-name>
+		<portlet-class>it.infn.ct.AllJobsMap</portlet-class>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<resource-bundle>it.infn.ct.messages</resource-bundle>
+		<portlet-info>
+			<title>AllJobsMap</title>
+			<short-title>AllJobsMap</short-title>
+		</portlet-info>
+	</portlet>
+</portlet-app>

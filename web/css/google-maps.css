@@ -1,0 +1,11 @@
+#map_canvas {
+  height: 650px;
+  width: 950px;
+}
+
+@media print {
+  #map_canvas {
+    height: 950px;
+  }
+}
+
